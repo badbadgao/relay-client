@@ -1,4 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# **/*.graphql.js
 
 # dependencies
 /node_modules
@@ -18,6 +19,11 @@
 .env.test.local
 .env.production.local
 
+# generated relay query
+
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+*.graphql.js
